@@ -1,0 +1,18 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Ghost)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Square)
+})
+basic.showLeds(`
+    . . . . .
+    . # . # .
+    . . # . .
+    . # # # .
+    . . # . .
+    `)
+basic.clearScreen()
+basic.showIcon(IconNames.Heart)
+basic.forever(function () {
+	
+})
