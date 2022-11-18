@@ -1,5 +1,5 @@
 {
-    "name": "Stian Første",
+    "name": "microbit/test",
     "description": "",
     "dependencies": {
         "core": "*",

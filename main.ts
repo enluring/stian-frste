@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Ghost)
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Square)
+    basic.showIcon(IconNames.Angry)
 })
 basic.showLeds(`
     . . . . .
@@ -12,7 +12,9 @@ basic.showLeds(`
     . . # . .
     `)
 basic.clearScreen()
-basic.showIcon(IconNames.Heart)
-basic.forever(function () {
+basic.showIcon(IconNames.Duck)
+basic.clearScreen()
+basic.showIcon(IconNames.Giraffe)
+while (true) {
 	
-})
+}
